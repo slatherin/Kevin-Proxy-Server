@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/slatherin/Kevin-Proxy-Server/issues"
   },
-  "homepage": "https://github.com/slatherin/Kevin-Proxy-Server#readme"
+  "homepage": "https://github.com/slatherin/Kevin-Proxy-Server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-awspublish": "^3.3.3",
+    "gulp-gzip": "^1.4.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6"
+  }
 }
